@@ -1,10 +1,33 @@
 ﻿body {
     background: url('../images/majestic_deer_by_creathor4005-d6bn0dt.png') top center no-repeat;
-    background-size:100% auto;
+    background-size: 100% auto;
 }
-#login.jumbotron{
+
+#login.jumbotron {
     background: rgba(255, 255, 255, 0.5);
 }
-#header.jumbotron{
+
+#header.jumbotron {
     background: rgba(255, 255, 255, 0.65);
+}
+
+img.resize {
+    width:auto;
+    height:100%;
+    max-width: 100%; /* you can use % */
+    max-height: 100%;
+    display:block;
+    margin:0 auto;
+
+}
+
+.image {
+    display:block;
+    margin: 0 auto;
+    width:1000px;
+    /*padding-left:5%;
+    padding-right:5%;*/
+    height:500px;
+    /*margin-left:5%;
+    margin-right:5%;*/
 }
